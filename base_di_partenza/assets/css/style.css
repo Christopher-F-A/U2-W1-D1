@@ -236,3 +236,31 @@ footer a {
     vertical-align: top;
   }
 }
+
+@media screen and (min-width: 1200px) {
+  body {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  article,
+  aside {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  article {
+    width: 68%;
+  }
+
+  aside {
+    width: 30%;
+    margin-left: 2%;
+  }
+
+  /* Articoli correlati */
+  aside div {
+    display: inline-block;
+    width: 100%;
+  }
+}
