@@ -204,3 +204,35 @@ footer a {
     width: 100%;
   }
 }
+
+@media screen and (min-width: 768px) {
+  /* HEADER */
+  header div,
+  header nav {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  header div {
+    width: 60%;
+    text-align: left;
+  }
+
+  header nav {
+    width: 38%;
+    text-align: right;
+  }
+
+  header nav li {
+    display: inline;
+    margin-left: 1em;
+  }
+
+  /* VIDEO + NOVITÀ */
+  article iframe,
+  article section {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+  }
+}
